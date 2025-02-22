@@ -1,0 +1,37 @@
+package rules;
+
+import com.itcode.entity.Order;
+dialect "java"
+//100以下不加分
+//100-500:加100分
+//500-1000:加500分
+//1000以上:加金额数分
+
+//规则
+rule "score_1"
+when
+    $order:Order(amount<100)
+then
+    $order.setScore(0);
+end
+
+rule "score_2"
+when
+    $order:Order(amount>=100&&amount<500)
+then
+    $order.setScore(100);
+end
+
+rule "score_3"
+when
+    $order:Order(amount>=500&&amount<1000)
+then
+    $order.setScore(500);
+end
+
+rule "score_4"
+when
+    $order:Order(amount>=1000)
+then
+    $order.setScore(1000);
+end

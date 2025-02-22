@@ -1,0 +1,14 @@
+/.idea/
+/maven-drools/target/classes/com/itcode/entity/Order.class
+/maven-drools/target/classes/com/itcode/tester/DroolsTester.class
+/maven-drools/target/classes/META-INF/kmodule.xml
+/maven-drools/target/classes/rules/score-rules.drl
+/maven-drools/target/classes/log4j.properties
+/springboot3-drools/target/classes/com/itcode/config/DroolsConfig.class
+/springboot3-drools/target/classes/com/itcode/controller/OrderController.class
+/springboot3-drools/target/classes/com/itcode/entity/Order.class
+/springboot3-drools/target/classes/com/itcode/service/impl/RuleServiceImpl.class
+/springboot3-drools/target/classes/com/itcode/service/RuleService.class
+/springboot3-drools/target/classes/com/itcode/Application.class
+/springboot3-drools/target/classes/rules/score-rules.drl
+/springboot3-drools/target/classes/log4j.properties
